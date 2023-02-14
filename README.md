@@ -46,3 +46,7 @@ We provide a [notebook](code.ipynb) for the proposed cross-modal classifiers and
 * numpy==1.22.4
 * scipy==1.6.2
 * https://github.com/openai/CLIP
+
+### Questions
+
+If you have any questions/improvement about our paper/data/annotation/code, please contact Yanzhe Zhang via `z_yanzhe AT gatech.edu`.
