@@ -1,6 +1,6 @@
 # Data/Code release of GEP
 
-We release the prompts/images/annotations of the [GEP project](https://salt-nlp.github.io/GEP/) in this repo.
+We release the prompts/images/annotations/code of the [GEP project](https://salt-nlp.github.io/GEP/) in this repo.
 
 ### Prompts
 
@@ -8,7 +8,7 @@ We store the prompts in two folders: _woman_v1_text_ and _man_v1_text_. Each fol
 
 ### Images
 
-We store the images generated from different models in different folders. We use three models: CogView2, DALLE-2, and Stable Diffusion. 
+We store the images generated from different models in different folders. We use three models: [CogView2](https://github.com/THUDM/CogView2), [DALLE-2](https://platform.openai.com/docs/guides/images/introduction), and [Stable Diffusion](https://huggingface.co/runwayml/stable-diffusion-v1-5)  to generate images. Note that we run stable diffusion on "small" GPUs ([old](https://github.com/invoke-ai/InvokeAI/tree/release-1.14)/[new version toolkit](https://github.com/invoke-ai/InvokeAI)), and run CogView2 on A100 GPUs.
 
 We generate five images per prompt. For example, given the prompt stored in "0.txt", we generate five images: "0_0.png", "0_1.png", "0_2.png", "0_3.png", "0_4.png". The format is either ".png" or ".jpg".
 
@@ -40,4 +40,9 @@ Note that only the images in the neutral setting are annotated for all attribute
 
 ### Code
 
-We provide a [notebook](code.ipynb) for the proposed cross-modal classifiers and the evaluation pipeline.
+We provide a [notebook](code.ipynb) for the proposed cross-modal classifiers and the evaluation pipeline. The code is tested in the environment below:
+* transformers==4.21.1
+* torch==1.11.0
+* numpy==1.22.4
+* scipy==1.6.2
+* https://github.com/openai/CLIP
