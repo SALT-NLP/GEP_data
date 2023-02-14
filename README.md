@@ -1,4 +1,4 @@
-# Data release of GEP
+# Data/Code release of GEP
 
 We release the prompts/images/annotations of the [GEP project](https://salt-nlp.github.io/GEP/) in this repo.
 
@@ -38,3 +38,6 @@ The third dimension corresponds to 15 attributes:
 
 Note that only the images in the neutral setting are annotated for all attributes. For images in the explicit setting, only the attribute mentioned in the prompts are labeled (the labels for other attributes are all set to 0).
 
+### Code
+
+We provide a [notebook](code.ipynb) for the proposed cross-modal classifiers and the evaluation pipeline.
