@@ -45,6 +45,7 @@ We provide a [notebook](code.ipynb) for the proposed cross-modal classifiers and
 * torch==1.11.0
 * numpy==1.22.4
 * scipy==1.6.2
+* scikit-learn==1.1.2
 * https://github.com/openai/CLIP
 
 ### Test new models?
