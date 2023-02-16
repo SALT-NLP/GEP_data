@@ -49,7 +49,9 @@ We provide a [notebook](code.ipynb) for the proposed cross-modal classifiers and
 
 ### Test new models?
 
-If you want to evaluate new models on our prompts, we provide [an example script](./generate.py) (from [this toolkit](https://github.com/invoke-ai/InvokeAI/tree/release-1.14)) of generating images. One can re-use the code above to calculate automatic GEP vectors/scores without human annotation.
+If you want to evaluate new models on our prompts, we provide [an example script](./generate.py) (from [this toolkit](https://github.com/invoke-ai/InvokeAI/tree/release-1.14)) of generating images. You can modify the image generation function to any function call. 
+
+After image generation, one can re-use the code above to calculate automatic GEP vectors/scores without human annotation.
 
 ## Questions
 
