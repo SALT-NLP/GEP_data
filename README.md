@@ -21,7 +21,7 @@ The shape of each array is $(2, 1280, 15)$, in which $0/1$ means the absense/exi
 The first dimension corresponds to two genders:
 
 ```
-['female', 'male']
+['woman', 'man']
 ```
 
 The second dimension corresponds to 1280 images:
